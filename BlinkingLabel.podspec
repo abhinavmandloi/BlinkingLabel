@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BlinkingLabel.'
+  s.summary          = 'A subclass on UILabel that provides a blink'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.
 
-  s.homepage         = 'https://github.com/abhinavmandloi/BlinkingLabel'
+  s.homepage         = 'https://github.com/obuseme/BlinkingLabel/abhinavmandloi14'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'abhinavmandloi' => 'abhinav.mandloi@mindstix.com' }
